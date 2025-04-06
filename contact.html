@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AgentixAI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="logo-text">AgentixAI</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section id="page-banner" class="page-banner d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 data-aos="fade-up">Contact Us</h2>
+                    <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="100">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-main" class="contact-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up">
+                    <h2>Get in Touch with Us</h2>
+                    <p class="lead">
+                        Have questions about our AI solutions or want to schedule a demo? We'd love to hear from you! Our team is ready to help you harness the power of agentic AI for your business.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
+                    <div class="info">
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Locations:</h4>
+                            <p>USA: 123 AI Boulevard, San Francisco, CA 94105</p>
+                            <p>India: Cyber Hub, Gurgaon, Haryana 122002</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@agentixai.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fas fa-phone"></i>
+                            <h4>Call:</h4>
+                            <p>USA: +1 415 555 0123</p>
+                            <p>India: +91 98765 43210</p>
+                        </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.7462080416377!2d-122.41941573468137!3d37.775274079757396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858085404c8a9f%3A0x386fe13bb9a87a51!2sSan%20Francisco%2C%20CA%2094105!5e0!3m2!1sen!2sus!4v1625847856446!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="contact-info-box">
+                        <h3>Sales Inquiries</h3>
+                        <p>For inquiries about our products and services:</p>
+                        <p><strong>Email:</strong> sales@agentixai.com</p>
+                        <p><strong>Phone:</strong> +1 415 555 0124</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-info-box">
+                        <h3>Technical Support</h3>
+                        <p>For technical assistance with our solutions:</p>
+                        <p><strong>Email:</strong> support@agentixai.com</p>
+                        <p><strong>Phone:</strong> +1 415 555 0125</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-info-box">
+                        <h3>Career Opportunities</h3>
+                        <p>Interested in joining our team?</p>
+                        <p><strong>Email:</strong> careers@agentixai.com</p>
+                        <p><a href="#" class="btn-link">View Open Positions <i class="fas fa-arrow-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common Questions About Our AI Solutions</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="contactFAQ">
+                        <div class="accordion-item" data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How quickly can you implement an AI solution for my business?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#contactFAQ">
+                                <div class="accordion-body">
+                                    Implementation timelines vary based on the complexity of your requirements. Simple integrations can be completed in 2-4 weeks, while more comprehensive solutions typically take 8-12 weeks. During our initial consultation, we'll provide a detailed timeline based on your specific needs.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do your AI solutions require specialized hardware?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#contactFAQ">
+                                <div class="accordion-body">
+                                    Most of our AI solutions are cloud-based and don't require specialized hardware. For high-performance applications or those with specific security requirements, we can design systems that run on your existing infrastructure or recommend appropriate hardware upgrades.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do you ensure the security of AI systems?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#contactFAQ">
+                                <div class="accordion-body">
+                                    Security is a core consideration in all our AI solutions. We implement industry-standard encryption, access controls, and regular security audits. Our systems are designed to comply with relevant data protection regulations such as GDPR, HIPAA, and others depending on your industry and location.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Do you offer support after implementation?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#contactFAQ">
+                                <div class="accordion-body">
+                                    Yes, we provide comprehensive post-implementation support and maintenance. Our standard support package includes 24/7 monitoring, regular updates, and technical support. We also offer premium support options with dedicated support engineers and faster response times.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+            <div class="text-center">
+                <h3>Ready to Get Started?</h3>
+                <p>Contact us today to schedule a free consultation and see how our AI solutions can transform your business.</p>
+                <a class="cta-btn" href="#contact-main">Contact Us Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>AgentixAI</h3>
+                        <p>
+                            123 AI Boulevard <br>
+                            San Francisco, CA 94105<br>
+                            United States <br><br>
+                            <strong>Phone:</strong> +1 415 555 0123<br>
+                            <strong>Email:</strong> info@agentixai.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="about.html">About us</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="services.html">Services</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="solutions.html">Solutions</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> <a href="services.html#sre-agents">SRE AI Agents</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="services.html#customer-support">Customer Support AI</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="services.html#integration">AI Integration</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="services.html#workflow">AI Workflow</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="services.html#consulting">AI Consulting</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Stay updated with the latest in AI advancements and our new solutions</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>AgentixAI</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
