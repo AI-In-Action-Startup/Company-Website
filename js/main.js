@@ -160,6 +160,7 @@
    */
   const glightbox = GLightbox({
     selector: '.glightbox',
+
     touchNavigation: true,
     closeEffect: 'fade',
     videosWidth: '900px',
@@ -175,6 +176,12 @@
         }
       }
     }
+=======
+    type: 'video',
+    touchNavigation: true,
+    closeEffect: 'fade',
+    videosWidth: '900px'
+
   });
 
 })();
