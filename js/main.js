@@ -160,10 +160,21 @@
    */
   const glightbox = GLightbox({
     selector: '.glightbox',
-    type: 'video',
     touchNavigation: true,
     closeEffect: 'fade',
-    videosWidth: '900px'
+    videosWidth: '900px',
+    autoplayVideos: true,
+    plyr: {
+      config: {
+        ratio: '16:9',
+        youtube: {
+          noCookie: true,
+          rel: 0,
+          showinfo: 0,
+          iv_load_policy: 3
+        }
+      }
+    }
   });
 
 })();
