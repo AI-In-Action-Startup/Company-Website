@@ -176,7 +176,7 @@
         }
       }
     }
-=======
+
     type: 'video',
     touchNavigation: true,
     closeEffect: 'fade',
