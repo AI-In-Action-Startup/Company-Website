@@ -175,9 +175,8 @@
           iv_load_policy: 3
         }
       }
-    }
+    },
 
-    type: 'video',
     touchNavigation: true,
     closeEffect: 'fade',
     videosWidth: '900px'
