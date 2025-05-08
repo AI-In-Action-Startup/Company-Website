@@ -155,4 +155,15 @@
    */
   console.log("Images directory path: /Users/sachidanand/Business/Source Code/Website/images/");
 
+  /**
+   * Initiate GLightbox for video playback
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox',
+    type: 'video',
+    touchNavigation: true,
+    closeEffect: 'fade',
+    videosWidth: '900px'
+  });
+
 })();
